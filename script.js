@@ -8,4 +8,3 @@ function zeigeRezept(element) {
     const rezeptName = element.querySelector(".rezept-name").textContent;
     alert("Rezept: " + rezeptName);
 }
-
