@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familienkochbuch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Familienkochbuch</h1>
+
+        <button id="suche" class="suche" type="button" onclick="zeigeSuche()">Rezept suchen</button>
+
+        <ul class="rezept-liste" aria-label="Rezepte">
+            <li>
+                <button class="rezept-karte" type="button" onclick="zeigeRezept(this)">
+                    <span class="rezept-bild" aria-hidden="true"></span>
+                    <span class="rezept-text">
+                        <span class="rezept-name">Omas Apfelkuchen</span>
+                        <span class="rezept-info">von Oma · 75 Min.</span>
+                    </span>
+                    <span class="rezept-pfeil" aria-hidden="true">›</span>
+                </button>
+            </li>
+            <li>
+                <button class="rezept-karte" type="button" onclick="zeigeRezept(this)">
+                    <span class="rezept-bild" aria-hidden="true"></span>
+                    <span class="rezept-text">
+                        <span class="rezept-name">Papas Gulasch</span>
+                        <span class="rezept-info">von Papa · 90 Min.</span>
+                    </span>
+                    <span class="rezept-pfeil" aria-hidden="true">›</span>
+                </button>
+            </li>
+            <li>
+                <button class="rezept-karte" type="button" onclick="zeigeRezept(this)">
+                    <span class="rezept-bild" aria-hidden="true"></span>
+                    <span class="rezept-text">
+                        <span class="rezept-name">Kartoffelsuppe</span>
+                        <span class="rezept-info">von Mama · 40 Min.</span>
+                    </span>
+                    <span class="rezept-pfeil" aria-hidden="true">›</span>
+                </button>
+            </li>
+            <li>
+                <button class="rezept-karte" type="button" onclick="zeigeRezept(this)">
+                    <span class="rezept-bild" aria-hidden="true"></span>
+                    <span class="rezept-text">
+                        <span class="rezept-name">Pfannkuchen</span>
+                        <span class="rezept-info">von Lena · 20 Min.</span>
+                    </span>
+                    <span class="rezept-pfeil" aria-hidden="true">›</span>
+                </button>
+            </li>
+            <li>
+                <button class="rezept-karte" type="button" onclick="zeigeRezept(this)">
+                    <span class="rezept-bild" aria-hidden="true"></span>
+                    <span class="rezept-text">
+                        <span class="rezept-name">Gemüse-Lasagne</span>
+                        <span class="rezept-info">von Opa · 60 Min.</span>
+                    </span>
+                    <span class="rezept-pfeil" aria-hidden="true">›</span>
+                </button>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
+
+
